@@ -9,7 +9,6 @@ int jump(vector<int>& nums) {
     int mmax = -1;
     int maxes[nums.size()];
     for(int i = 0; i < nums.size(); i++){
-        int to_push = i + nums[i];
         mmax = max(mmax, i + nums[i]);
         maxes[i] = mmax;
     }
