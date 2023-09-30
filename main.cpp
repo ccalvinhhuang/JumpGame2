@@ -4,12 +4,6 @@
 #include <algorithm>
 
 using namespace std;
-void print(vector<int>v){
-    for(int ele : v){
-        cout << ele << " ";
-    }
-    cout << endl;
-}
 int jump(vector<int>& nums) {
     if(nums.size() == 1) return 0;
     int mmax = -1;
