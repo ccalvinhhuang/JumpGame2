@@ -9,6 +9,7 @@ void print(vector<int>v){
         cout << ele << " ";
     }
     cout << endl;
+    cout << endl;
 }
 int jump(vector<int>& nums) {
     if(nums.size() == 1) return 0;
