@@ -5,6 +5,7 @@
 
 using namespace std;
 int jump(vector<int>& nums) {
+
     if(nums.size() == 1) return 0;
     int mmax = -1;
     int maxes[nums.size()];
